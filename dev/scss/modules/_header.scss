@@ -1,0 +1,114 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+.top-buttons{
+  margin-top: 60px;
+}
+.top-links{
+  margin-top: 20px;
+  width:100%;
+  a{
+    padding:0px 20px;
+    color:black;
+    border-right:1px solid black;
+    &:last-of-type{
+      border-right:0px;
+      padding-right:0px;
+    }
+  }
+}
+#searchform{
+  width:230px;
+  float:left;
+  label{
+    display:none;
+  }
+  #s{
+    height:31px;
+    border-radius: 10px 0px 0px 10px;
+    border:1px solid grey;
+  }
+  #searchsubmit{
+    background:$c-2;
+    @include background-image(linear-gradient(to top, #3c72c4, #03497e ));
+    border:0px;
+    border-radius:0px 10px 10px 0px;
+    color:white;
+    margin-left:-4px;
+    height:31px;
+  }
+}
+.Header {
+  background-image: url("../img/img-header-bg.png");
+  background-size: cover;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+.Slider {
+	visibility: hidden;
+}
