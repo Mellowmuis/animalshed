@@ -18,6 +18,7 @@
 
     <!-- Automate reverse linking (pingbacks) -->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
@@ -58,8 +59,8 @@
                         </div>
                         <div class="u-objRight u-cf top-buttons">
                             <?php get_search_form(); ?>
-                            <button class="blue-button"><i class="fa fa-envelope"></i> Mail ons</button>
-                            <button class="blue-button"><i class="fa fa-shopping-cart"></i> Winkelwagen</button>
+                            <button class="blue-button"><a href="mailto:info@theanimalshed.nl"><i class="fa fa-envelope"></i> Mail ons</a></button>
+                            <div id="shoppingcart"></div>
                         </div>
                     </div>
                 </div>

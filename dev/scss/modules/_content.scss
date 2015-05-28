@@ -10,6 +10,17 @@
 .padding{
 	padding:10px;
 }
+
+.main-content-text {
+	h2 {
+		margin-top: 20px;
+	}
+	.row-fluid:first-of-type {
+		margin-top: 20px;
+	}
+	
+}
+
 .middle-thumb{
 	@include background-image(linear-gradient(to bottom, #ffffff, #f8f8f8 ));
 	border:1px solid #e0e0e0;
@@ -21,7 +32,7 @@
 		color:green;
 	}
 }
-.thumb{
+.thumb, .product {
 	margin-top:20px;
 	border-radius:10px;
 	text-align:center;

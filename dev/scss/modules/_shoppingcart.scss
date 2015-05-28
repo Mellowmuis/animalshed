@@ -1,0 +1,28 @@
+#shoppingcart {
+
+	#shopping-cart-dropdown {
+		width: 300px;
+	}
+	.product-row {
+		padding: 0px 15px;
+	}
+	.product-row span:first-of-type { 
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.product-row span:nth-of-type(2) { 
+		display: inline-block;
+		width: 180px;
+	}
+	.product-row span:last-of-type { 
+		display: inline-block;
+		margin-right: 0px;
+	}
+}
+.product {
+	top: 5px;
+	overflow: hidden;
+	min-height: 250px !important;
+}
+
+

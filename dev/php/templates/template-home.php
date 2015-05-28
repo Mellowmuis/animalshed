@@ -9,32 +9,10 @@ Template Name: Homepage
 	<div class="u-gridContainer">
 		<div class="u-gridRow">
 			<div class="u-gridCol2"> 
-				<div class="thumb green">
-					<div class="thumb-head "><b>KLAAR VERS VLEES</b></div>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wurst.jpg">
-					<button>Meer info & bestellen</button>
-				</div>
-				<div class="thumb green">
-					<div class="thumb-head "><b>NATUURLIJKE SNACKS</b></div>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wurst.jpg">
-					<button>Meer info & bestellen</button>
-				</div>
-				<div class="thumb green">
-					<div class="thumb-head "><b>HONDENSPEELGOED</b></div>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wurst.jpg">
-					<button>Meer info & bestellen</button>
-				</div>
-				<div class="thumb green">
-					<div class="thumb-head "><b>HOKKEN& AFRASTERING</b></div>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wurst.jpg">
-					<button>Meer info & bestellen</button>
-				</div>
+				<?php include_once('kvvsidebar.php'); ?>
 			</div>
-
-
 			<div class="u-gridCol7"> 
 				<div class="Slider">
-
 					<?php
 
 						$args = array(
@@ -92,52 +70,9 @@ Template Name: Homepage
 					</p>
 				</div>
 			</div>
-
-
-			<div class="u-gridCol3"> 
-				<div class="thumb blue">
-					<div class="thumb-head ">
-						<b>COMPLEET VOER RUND</b>
-						<p>KVV worst van 1000 gram</p>
-					</div>
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wurst.jpg">
-					<div class="bottom">
-						<p>Voor de baasjes die wel eens worst geven om de gezondheid en welzijn van hun hond.</p>
-					</div>
-				</div>
-				<div class="thumb blue">
-					<div class="thumb-head ">
-						<b>THE ANIMALSHED</b>
-					</div>
-					<div class="padding">
-						<ul>
-							<li>7 dagen per week via mail bereikbaar</li>
-							<li>Leveringen binnen een straal van 10 km slechts €7,50 </li>
-							<li>Dinsdag en Donderdag  afhalen mogelijk tussen 16:00 en 20:00 uur</li>
-							<li>The Animalshed geeft uw viervoeter gegarandeerd meer eetplezier en pret.</li>
-						</ul>
-					</div>
-					
-				</div>
-				<div class="thumb blue">
-					<div class="thumb-head ">
-						<b>VEILIGE BETAALMETHODEN</b>
-					</div>
-					<div class="padding">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/betaal.png">
-					</div>
-					
-				</div>
-				<div class="thumb blue">
-					<div class="thumb-head ">
-						<b>HONDENVOER VERGELIJKEN</b>
-					</div>
-					<div class="padding">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/uit.png">
-					</div>
-					
-				</div>
-			</div>
+			<div class="u-gridCol3" >
+				<?php include_once('kvvrightsidebar.php'); ?>
+			</div>	
 		</div>
 	</div>
 	<div class="u-gridRow" style="height:100px;"></div>
