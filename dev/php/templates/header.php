@@ -51,16 +51,10 @@
                     <div class="u-gridCol9">
                         <div class="u-cf top-links">
                             <div class="u-objRight">
-                                <a href="#">Over Ons</a>
+                                <a href="/over-ons">Over Ons</a>
                                 <a href="/contact">Contact</a>
-                                
+								<a href="mailto:info@theanimalshed.nl"><i class="fa fa-envelope"></i> Mail ons</a>
                             </div>
-                            
-                        </div>
-                        <div class="u-objRight u-cf top-buttons">
-                            <?php get_search_form(); ?>
-                            <button class="blue-button"><a href="mailto:info@theanimalshed.nl"><i class="fa fa-envelope"></i> Mail ons</a></button>
-                            <div id="shoppingcart"></div>
                         </div>
                     </div>
                 </div>

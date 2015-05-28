@@ -30,7 +30,7 @@
 		<b>VEILIGE BETAALMETHODEN</b>
 	</div>
 	<div class="padding">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/betaal.png">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/betaal-ideal.png">
 	</div>
 	
 </div>
@@ -39,7 +39,9 @@
 		<b>HONDENVOER VERGELIJKEN</b>
 	</div>
 	<div class="padding">
+		<a href="http://uitgelatenhond.nl/hondenvoer" target="_blank">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/uit.png">
+		</a>
 	</div>
 	
 </div>

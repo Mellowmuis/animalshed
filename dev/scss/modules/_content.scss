@@ -18,7 +18,6 @@
 	.row-fluid:first-of-type {
 		margin-top: 20px;
 	}
-	
 }
 
 .middle-thumb{
@@ -62,7 +61,7 @@
 .green{
 	border:1px solid #1d692a;
 	padding-bottom:5px;
-	button{
+	.button, button{
 		background:$c-2;
 		@include background-image(linear-gradient(to top, #3c72c4, #03497e ));
 		border-radius:10px;
@@ -70,6 +69,7 @@
 		color:white;
 		font-weight: bold;
 		padding:5px 10px;
+		display: inline-block;
 	}
 	.thumb-head{
 		@include background-image(linear-gradient(to top, #259e15, #1d692a ));
@@ -105,6 +105,7 @@
 	padding:5px 10px;
 	float:left;
 	margin-left:10px;
+	display: block;
 	a{
 		color:white;
 	}
