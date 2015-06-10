@@ -1,7 +1,26 @@
 .Footer {
+	color:white;
+	.green-bg{
+		padding:20px;
+		padding-bottom:0px;
+	}
+	a{
+		color:white;
+		&:hover{
+			text-decoration: underline;
+			color:white;
+		}
+	}
 }
 .green-bg{
 	background-color:$c-1;
+}
+.widget_nav_menu{
+	float: right !important;
+	width: 250px !important;
+	.menu-footermenu-container{
+		height:40px;
+	}
 }
 // RESPONSIVE FOOTER
 .Footer-inner .widget {
@@ -10,10 +29,10 @@
 		@include span-columns(12);
 	}
 }
-
+ 
 .Footer-inner {
 }
-
+ 
 //style the widgets
 .Footer-inner .widget {
 

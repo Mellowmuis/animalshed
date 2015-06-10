@@ -4,7 +4,16 @@
 // -> All buttons
 //
 // *************************************
-
+.btn{
+  background-color: rgb(36, 148, 25) !important;
+  border-radius: 10px !important;
+  border: 0px !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 5px 10px !important;
+  display: inline-block !important;
+  background-image:none !important;
+}
 .Button {
   display: inline-block;
   font-weight: bold;

@@ -37,7 +37,7 @@
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+   
 
   </head>
   <body <?php body_class(); ?> >
@@ -54,6 +54,7 @@
                                 <a href="/over-ons">Over Ons</a>
                                 <a href="/contact">Contact</a>
 								<a href="mailto:info@theanimalshed.nl"><i class="fa fa-envelope"></i> Mail ons</a>
+                                <div id="shoppingcart"></div>
                             </div>
                         </div>
                     </div>

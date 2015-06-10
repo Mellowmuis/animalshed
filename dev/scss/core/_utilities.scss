@@ -39,7 +39,7 @@
   padding-right: $l-insideGutter;
 }
 
-.u-gridRow {
+.u-gridRow{
   @include row();
 }
 .u-gridCol1 {

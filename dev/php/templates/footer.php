@@ -1,12 +1,25 @@
 	<div class="Footer">
 		<div class="u-gridContainer green-bg">
-			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
-			</p>
-			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-			<div class="Footer-inner u-gridRow">
-				<?php dynamic_sidebar( 'footer-widgets' ); ?>
-			</div>
+      <div class="u-gridRow">
+        
+        <div class="u-gridCol4">
+          <h4 class="">Info</h4>
+          <a href="<?php echo get_stylesheet_directory_uri(); ?>/voorwaarden.pdf" target="_blank">Algemene Voorwaarden</a>
+        </div>
+         <div class="u-gridCol8">
+          <?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
+          <div class="Footer-inner u-gridRow">
+            <?php dynamic_sidebar( 'footer-widgets' ); ?>
+          </div>
+        </div>
+      </div>
+      <div class="u-gridRow">
+        <div class="u-gridCol4 u-objRight">
+          <p  style="float:right;">&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
+              <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
+          </p>
+        </div>
+      </div>
 			<?php endif; ?>
 		</div>
 	</div>

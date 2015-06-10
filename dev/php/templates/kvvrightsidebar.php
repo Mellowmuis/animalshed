@@ -4,7 +4,7 @@
 		<p>KVV worst van 1000 gram</p>
 	</div>
 	<a href="/products/86841#KVV worst van 1000 gram">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wurst.jpg">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vlees.jpg">
 	</a>
 
 	<div class="bottom">
