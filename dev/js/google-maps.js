@@ -11,7 +11,7 @@ function initialize() {
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
-    codeAddress('vijfhuizenberg 121 4708 AJ Roosendaal');
+    codeAddress('haansberg 43 Etten-Leur');
   }
 }
 

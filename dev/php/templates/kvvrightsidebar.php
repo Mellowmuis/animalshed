@@ -4,13 +4,25 @@
 		<p>KVV worst van 1000 gram</p>
 	</div>
 	<a href="/products/86841#KVV worst van 1000 gram">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vlees.jpg">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/voorraad.jpg">
 	</a>
 
 	<div class="bottom">
 		<p>Voor de baasjes die wel eens worst geven om de gezondheid en welzijn van hun hond.</p>
 	</div>
 </div>
+
+<div class="thumb blue">
+	<div class="thumb-head ">
+		<b>INGREDIENTEN EN BEREIDING</b>
+	</div>
+	<div class="padding">
+		<a class="button"  href="/soort-werkwijze" >Meer informatie</a>
+	</div>
+	
+</div>
+
+
 <div class="thumb blue">
 	<div class="thumb-head ">
 		<b>THE ANIMALSHED</b>

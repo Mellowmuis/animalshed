@@ -1,7 +1,7 @@
 <div class="thumb green">
 	<div class="thumb-head "><b>KLAAR VERS VLEES</b></div>
 	<a href="/categories/1501#klaar-vers-vlees" >
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vlees.jpg">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vlees.jpg" style="margin-bottom: 5px; padding: 5px; ">
 	</a>
 	<a class="button" href="/categories/1501#natuurlijke-snacks">Meer info & bestellen</a>
 </div>

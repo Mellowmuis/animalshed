@@ -25,9 +25,9 @@ Template Name: Contactpage
 							<div class="adress-info">
 								<h5 class="no-marg">Adresgegevens</h5>
 								<p>The Animalshed</p>
-								<p>Vijfhuizenberg 121</p>
-								<p>4708 AJ Roosendaal</p>
-								<p>Email: </p>
+								<p>Haansberg 43</p>
+								<p>4874 NJ Etten-Leur</p>
+								<p>Email: info@theanimalshed.nl</p>
 								<p>Tel: 0165561424</p>
 							</div>
 	
